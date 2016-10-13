@@ -22,10 +22,5 @@ module.exports = {
             exclude: /node_modules/,
             loader: "style!css!less"
         }]
-    },
-    plugins: [
-        new ExtractTextPlugin("style.css", {
-            allChunks: true
-        })
-    ]
+    }
 }
